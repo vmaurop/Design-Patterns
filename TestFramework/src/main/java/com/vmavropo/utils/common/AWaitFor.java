@@ -4,6 +4,7 @@ import com.vmavropo.utils.Test;
 import com.vmavropo.utils.config.EnvDataConfig;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.awaitility.Awaitility.await;
@@ -26,5 +27,10 @@ public class AWaitFor {
         await().atMost(Long.parseLong(test.envDataConfig().getTimeoutElementFind()), SECONDS)
                 .until(() ->
                         new Element(test).isElementPresent(by));
+    }
+
+    public void elementToBePresent(WebElement webElement) {
+        await().atMost(Long.parseLong(test.envDataConfig().getTimeoutElementFind()), SECONDS)
+                .until(webElement::isDisplayed);
     }
 }

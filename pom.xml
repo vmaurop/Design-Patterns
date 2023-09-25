@@ -11,6 +11,7 @@
     <modules>
         <module>TestFramework</module>
         <module>PageObjectModel</module>
+        <module>PageFactory</module>
     </modules>
 
     <properties>

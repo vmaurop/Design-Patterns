@@ -45,6 +45,12 @@ public final class Button {
         scrollAndClick(driver.findElement(by));
     }
 
+    public void click(WebElement webElement) {
+        awaitFor.elementToBePresent(webElement);
+        waitFor.elementToBeClickable(webElement);
+        scrollAndClick(webElement);
+    }
+
     public void clickAction(By by) {
         WebElement element = driver.findElement(by);
         waitFor.elementToBeVisible(element);

@@ -4,7 +4,7 @@ import lombok.experimental.UtilityClass;
 import org.openqa.selenium.By;
 
 @UtilityClass
-public class LoginElements {
+public class AuthElements {
 
     public static final By USERNAME = By.id("username");
 

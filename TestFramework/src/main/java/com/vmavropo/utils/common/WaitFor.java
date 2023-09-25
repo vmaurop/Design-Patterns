@@ -96,6 +96,15 @@ public class WaitFor {
 
     }
 
+    public void elementToBeClickable(WebElement webElement) {
+        try {
+            test.webDriverFactory().getFluentWait()
+                    .until(ExpectedConditions.elementToBeClickable(webElement));
+        } catch (Exception e) {
+            test.logger().error(StaticConfig.ELEMENT_NOT_CLICKABLE);
+        }
+    }
+
     public void dropdownElementToBeClickable(By by) {
         XTime(EXTRA_WAIT_FOR_ELEMENT_TO_BE_CLICKABLE, TimeUnit.MILLISECONDS);
         elementToBeClickable(by);
@@ -104,6 +113,11 @@ public class WaitFor {
     public void elementToBeDisplayed(By by) {
         test.webDriverFactory().getFluentWait()
                 .until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
+
+    public void elementToBeDisplayed(WebElement webElement) {
+        test.webDriverFactory().getFluentWait()
+                .until(ExpectedConditions.visibilityOf(webElement));
     }
 
     public void JQueryAndPrimeFaces() {
