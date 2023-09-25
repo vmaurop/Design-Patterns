@@ -1,2 +1,2 @@
 # Design-Patterns
-Multi-Module Project Design Paterns &amp; Test Framework Cucumber BDD - Selenium - Rest Assured
+Multi-Module Project Design Patterns &amp; Test Framework Cucumber BDD - Selenium - Rest Assured
