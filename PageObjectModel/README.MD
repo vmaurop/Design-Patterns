@@ -1,3 +1,3 @@
-The Page Object Model (POM) is a design pattern used in test automation to create a clear separation between the test code and the web page's structure and elements. It helps improve test maintainability, readability, and reusability.
+The Page Object Model (POM) is a design pattern used in test automation to create a clear separation between the test code and the web page's structure and elements. It helps improve test maintainability, readability, and re usability.
 
 By using the Page Object Model, you achieve better code organization and maintainability in your test automation projects. When the web application changes, you only need to update the page classes, and your tests remain mostly unchanged, reducing maintenance efforts

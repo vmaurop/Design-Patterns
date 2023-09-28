@@ -1,4 +1,10 @@
-The Page Factory is a design pattern used in Selenium WebDriver to simplify the initialization of web elements on a web page. It helps in enhancing code readability, reducing code duplication, and making maintenance easier. The Page Factory is typically used in conjunction with the Page Object Model (POM).
+The Page Factory is a design pattern used in Selenium WebDriver 
+to simplify the initialization of web elements on a web page. 
+It helps in enhancing code readability, reducing code duplication, 
+and making maintenance easier. The Page Factory is typically used 
+in conjunction with the Page Object Model (POM).
+
+
 
 
 

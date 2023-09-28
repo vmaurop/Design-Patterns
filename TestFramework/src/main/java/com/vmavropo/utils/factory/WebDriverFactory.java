@@ -1,6 +1,5 @@
 package com.vmavropo.utils.factory;
 
-import com.vmavropo.ui.authentication.Auth;
 import com.vmavropo.utils.Test;
 import com.vmavropo.utils.browsers.Chrome;
 import com.vmavropo.utils.browsers.Edge;
@@ -73,9 +72,8 @@ public class WebDriverFactory {
         return this;
     }
 
-    public Auth openApplication(String applicationName) {
+    public void openApplication(String applicationName) {
         test.webDriverFactory().getDriver().get(test.envDataConfig().getUrl(applicationName));
-        return new Auth(test);
     }
 
     public void closeBrowser(Scenario scenario) {
