@@ -13,6 +13,7 @@
         <module>PageObjectModel</module>
         <module>PageFactory</module>
         <module>Singleton</module>
+        <module>FactoryMethod</module>
     </modules>
 
     <properties>

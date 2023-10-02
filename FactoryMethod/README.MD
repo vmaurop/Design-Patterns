@@ -1,0 +1,3 @@
+The Factory Method Pattern is a creational design pattern that provides an interface for creating objects but allows subclasses to alter the type of objects that will be created. It's useful when you have a class that cannot anticipate the class of objects it must create or when a class wants to delegate the responsibility of object creation to its subclasses.
+
+In the context of test automation, you can use the Factory Method Pattern to create test objects with different implementations (e.g., different types of test data, different configurations) while abstracting the creation logic
