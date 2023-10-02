@@ -1,0 +1,3 @@
+The Singleton pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to that instance. It is often used when exactly one object needs to coordinate actions across the system, such as a single configuration manager, a single connection pool, or a logging service.
+
+In the context of test automation, Singleton patterns can be useful for managing resources that should have a single instance shared across multiple test cases, such as a WebDriver instance (for Selenium tests), a test data repository, or a configuration manager.

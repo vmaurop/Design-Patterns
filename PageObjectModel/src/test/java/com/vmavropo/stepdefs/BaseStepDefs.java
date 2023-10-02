@@ -1,4 +1,4 @@
-package vmavropo.stepdefs;
+package com.vmavropo.stepdefs;
 
 import com.vmavropo.Auth;
 import com.vmavropo.utils.Test;

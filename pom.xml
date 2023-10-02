@@ -12,6 +12,7 @@
         <module>TestFramework</module>
         <module>PageObjectModel</module>
         <module>PageFactory</module>
+        <module>Singleton</module>
     </modules>
 
     <properties>
