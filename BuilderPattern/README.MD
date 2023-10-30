@@ -1,0 +1,1 @@
+The Builder Pattern is a creational design pattern that enhances test automation by providing a structured way to create complex objects step by step. In the context of test automation, it simplifies the process of constructing test data and setting up test scenarios with multiple configuration options.
