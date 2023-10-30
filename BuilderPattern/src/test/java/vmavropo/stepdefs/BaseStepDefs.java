@@ -1,11 +1,9 @@
 package vmavropo.stepdefs;
 
 import com.netcompany.User;
-import com.netcompany.UserBuilder;
 import com.netcompany.UserFactory;
 import com.vmavropo.utils.Test;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 
 
 public class BaseStepDefs {
